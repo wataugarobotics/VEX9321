@@ -3,8 +3,8 @@
 
 void holoSet(int x, int y, int z)
 {
-    motorSet(#, -x-z)); //front
-    motorSet(#, x-z);   //back
-    motorSet(#, -y-z)); //left
-    motorSet(#, y-z);   //right
+    motorSet(1, -x-z)); //front
+    motorSet(2, x-z);   //back
+    motorSet(3, -y-z)); //left
+    motorSet(4, y-z);   //right
 }
