@@ -1,10 +1,11 @@
 #include "main.h"
 #include "holo.h"
 
+//set holo base with vector (x pos, y pos, z rotation)
 void holoSet(int x, int y, int z)
 {
-    motorSet(1, -x-z)); //front
-    motorSet(2, x-z);   //back
-    motorSet(3, -y-z)); //left
-    motorSet(4, y-z);   //right
+    motorSet(9, -x+z);  //front
+    motorSet(2, x+z);   //back
+    motorSet(1, y-z);   //left
+    motorSet(8, y+z);   //right
 }

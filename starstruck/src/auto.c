@@ -10,4 +10,22 @@
  */
 
 void autonomous() {
+    //forward & claw out (2500), lift (1000)
+/*    holoSet(0, 127, 0);
+    clawSet(-50);
+    liftSet(127);
+    delay(1000);
+    liftSet(0);
+    delay(1500);
+
+    //right & lift oscillation
+    holoSet(127, 0, 0);
+    for(int i = 0; i < 10; ++i)
+    {
+        liftSet(-50);
+        delay(250);
+        liftSet(127);
+        delay(250);
+    }
+*/
 }
