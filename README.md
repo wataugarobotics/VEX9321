@@ -1,2 +1,2 @@
-# VEX9321 (2017 alias 13749a)
+# VEX9321 (2018 alias 13749a)
 Competition code, built in [PROS C](http://pros.cs.purdue.edu/).
